@@ -65,7 +65,7 @@ public:
      */
     u16 nextUShort();
 
-private:
+protected:
     vuint128 state[156];
     u16 index;
 

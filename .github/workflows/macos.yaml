@@ -49,9 +49,9 @@ jobs:
 
       - name: Clear Cached version.h
         run: |
-          # if [ -f "${{github.workspace}}/build/generated/version.h" ]; then
-          #   rm "${{github.workspace}}/build/generated/version.h"
-          # fi
+          if [ -f "${{github.workspace}}/build/generated/version.h" ]; then
+            rm "${{github.workspace}}/build/generated/version.h"
+          fi
         shell: bash
 
       - name: Store File Mtimes

@@ -49,12 +49,12 @@ jobs:
             ${{env.cache-name}}-${{hashFiles('**/CMakeLists.txt')}}
             ${{env.cache-name}}-
 
-      - name: Clear Cached version.h
-        run: |
-          if [ -f "${{github.workspace}}/build/generated/version.h" ]; then
-            rm "${{github.workspace}}/build/generated/version.h"
-          fi
-        shell: bash
+      # - name: Clear Cached version.h
+      #   run: |
+      #     if [ -f "${{github.workspace}}/build/generated/version.h" ]; then
+      #       rm "${{github.workspace}}/build/generated/version.h"
+      #     fi
+      #   shell: bash
 
       - name: Store File Mtimes
         uses: ./.github/actions/file-mtime-cache

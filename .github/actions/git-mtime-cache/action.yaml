@@ -7,4 +7,3 @@ runs:
         python3 "${{github.action_path}}/git-restore-mtime"
         git submodule foreach --recursive 'python3 "${{github.action_path}}/git-restore-mtime"'
       shell: bash
-

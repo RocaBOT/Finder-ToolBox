@@ -25,6 +25,7 @@ EggModel3::EggModel3(QObject *parent, bool emerald) : TableModel(parent), emeral
 }
 
 int EggModel3::columnCount(const QModelIndex &parent) const
+
 {
     if (emerald)
     {

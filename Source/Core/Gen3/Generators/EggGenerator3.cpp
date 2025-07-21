@@ -200,6 +200,7 @@ std::vector<EggState3> EggGenerator3::generate(u32 seedHeld, u32 seedPickup) con
 }
 
 std::vector<EggState3> EggGenerator3::generateEmeraldHeld() const
+
 {
     const PersonalInfo *base = PersonalLoader::getPersonal(profile.getVersion(), daycare.getEggSpecie());
     const PersonalInfo *male = nullptr;

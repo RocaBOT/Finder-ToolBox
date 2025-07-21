@@ -33,6 +33,7 @@
 #include <QSettings>
 
 Eggs3::Eggs3(QWidget *parent) : QWidget(parent), ui(new Ui::Eggs3)
+
 {
     ui->setupUi(this);
     setAttribute(Qt::WA_QuitOnClose, false);

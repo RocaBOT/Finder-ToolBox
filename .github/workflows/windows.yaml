@@ -23,7 +23,7 @@ jobs:
 
       - name: Install git-restore-mtime
         run: |
-          wget https://raw.githubusercontent.com/chetan/git-restore-mtime-action/refs/heads/master/git-restore-mtime -O ${{github.workspace}}/git-restore-mtime
+          curl -L https://raw.githubusercontent.com/chetan/git-restore-mtime-action/refs/heads/master/git-restore-mtime -o "$env:GITHUB_WORKSPACE/git-restore-mtime"
 
       - name: Restore mtime for PokeFinder
         run: ${{github.workspace}}/git-restore-mtime

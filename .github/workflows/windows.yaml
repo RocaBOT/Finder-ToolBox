@@ -7,6 +7,7 @@ on:
     tags:
       - "v[0-9]+\\.[0-9]+\\.[0-9]+"
   pull_request:
+  workflow_dispatch:
 
 jobs:
   ci:
@@ -17,7 +18,18 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          submodules: true
+          fetch-depth: 0
+          submodules: recursive
+
+      - name: Install git-restore-mtime
+        run: |
+          wget https://raw.githubusercontent.com/chetan/git-restore-mtime-action/refs/heads/master/git-restore-mtime -O ${{github.workspace}}/git-restore-mtime
+
+      - name: Restore mtime for PokeFinder
+        run: ${{github.workspace}}/git-restore-mtime
+
+      - name: Restore mtime for all submodules
+        run: git submodule foreach --recursive 'python3 ${{github.workspace}}/git-restore-mtime'
 
       - name: Install Qt
         uses: jurplel/install-qt-action@v4
@@ -27,6 +39,19 @@ jobs:
           tools: tools_opensslv3_x64
           cache: true
           arch: "win64_msvc2022_64"
+
+      - name: Cache CMake build files
+        uses: actions/cache@v4
+        env:
+          cache-name: windows-cmake-build
+        with:
+          path: |
+            ${{github.workspace}}/build
+          key: ${{env.cache-name}}-${{hashFiles('**/CMakeLists.txt')}}-${{github.head_ref}}-${{github.run_id}}
+          restore-keys: |
+            ${{env.cache-name}}-${{hashFiles('**/CMakeLists.txt')}}-${{github.head_ref}}
+            ${{env.cache-name}}-${{hashFiles('**/CMakeLists.txt')}}
+            ${{env.cache-name}}-
 
       - name: Configure CMake
         run: cmake -B ${{github.workspace}}/build -DCMAKE_BUILD_TYPE=RELEASE -DTEST=ON
@@ -46,9 +71,9 @@ jobs:
           mv build/Source/Release/PokeFinder.exe PokeFinder
           windeployqt --no-translations --no-plugins --no-opengl-sw --no-system-d3d-compiler PokeFinder/PokeFinder.exe
           rm PokeFinder/vc_redist*.exe
-          cp "${{ env.QT_ROOT_DIR }}/plugins/platforms/qwindows.dll" PokeFinder/platforms/
-          cp "${{ env.QT_ROOT_DIR }}/plugins/styles/qmodernwindowsstyle.dll" PokeFinder/styles/
-          cp "${{ env.QT_ROOT_DIR }}/../../Tools/OpenSSLv3/Win_x64/bin/lib*.dll" PokeFinder
+          cp "${{env.QT_ROOT_DIR}}/plugins/platforms/qwindows.dll" PokeFinder/platforms/
+          cp "${{env.QT_ROOT_DIR}}/plugins/styles/qmodernwindowsstyle.dll" PokeFinder/styles/
+          cp "${{env.QT_ROOT_DIR}}/../../Tools/OpenSSLv3/Win_x64/bin/lib*.dll" PokeFinder
           7z a PokeFinder-win.zip PokeFinder
           mv PokeFinder upload
 

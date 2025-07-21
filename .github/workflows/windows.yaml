@@ -68,6 +68,9 @@ jobs:
             ${{github.workspace}}/Source/Test/*.hpp
             ${{github.workspace}}/Source/Core/Resources/*.hpp
 
+      - name: touch
+        run: |
+          touch ${{github.workspace}}/build/generated/version.h
       - name: Build PokeFinder
         run: cmake --build ${{github.workspace}}/build --config RELEASE
 

@@ -28,11 +28,6 @@ if(NOT EXISTS ${CMAKE_BINARY_DIR}/generated/version.h)
     )
 endif()
 
-
-execute_process(
-    COMMAND touch ${CMAKE_BINARY_DIR}/generated/version.h
-)
-
 include_directories(${CMAKE_BINARY_DIR}/generated)
 
 set(CMAKE_AUTOMOC ON)

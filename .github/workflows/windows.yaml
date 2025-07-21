@@ -40,8 +40,9 @@ jobs:
           cache: true
           arch: "win64_msvc2022_64"
 
-      - name: Cache CMake build files
-        uses: actions/cache@v4
+      - name: Restore CMake build files
+        id: cache
+        uses: actions/cache/restore@v4
         env:
           cache-name: windows-cmake-build
 
@@ -62,6 +63,13 @@ jobs:
 
       - name: Test PokeFinder
         run: ctest --test-dir ${{github.workspace}}/build -C RELEASE -V
+
+      - name: Save CMake build files
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            ${{github.workspace}}/build
+          key: ${{steps.cache.outputs.cache-primary-key}}
 
       - name: Package PokeFinder
         run: |

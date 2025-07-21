@@ -58,7 +58,7 @@ jobs:
       - name: Store File Mtimes
         uses: ./.github/actions/mtime-cache
         with:
-          mode: restore
+          mode: save
           files: |
             ${{github.workspace}}/Source/Test/*.hpp
             ${{github.workspace}}/Source/Core/Resources/*.hpp

@@ -83,7 +83,6 @@ jobs:
         run: ctest --test-dir ${{github.workspace}}/build -C RELEASE -V
 
       - name: Save CMake build files
-
         uses: actions/cache/save@v4
         with:
           path: |

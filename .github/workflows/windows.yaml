@@ -49,6 +49,8 @@ jobs:
         with:
           path: |
             ${{github.workspace}}/build
+            ${{github.workspace}}/Source/Test/*.hpp
+            ${{github.workspace}}/Source/Core/Resources/*.hpp
           key: ${{env.cache-name}}-${{hashFiles('**/CMakeLists.txt')}}-${{github.head_ref}}-${{github.run_id}}
           restore-keys: |
             ${{env.cache-name}}-${{hashFiles('**/CMakeLists.txt')}}-${{github.head_ref}}
@@ -85,6 +87,8 @@ jobs:
         with:
           path: |
             ${{github.workspace}}/build
+            ${{github.workspace}}/Source/Test/*.hpp
+            ${{github.workspace}}/Source/Core/Resources/*.hpp
           key: ${{steps.cache.outputs.cache-primary-key}}
 
       - name: Package PokeFinder

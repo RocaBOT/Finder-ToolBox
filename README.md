@@ -13,7 +13,9 @@ This will be a RNG Tool for all main Pokémon games generations 3-8. It currentl
 [Latest Nightly Build](https://github.com/Admiral-Fish/PokeFinder/actions)
 
 # Features
+
 Gen 3
+
 - Egg
 - GameCube
 - IDs
@@ -21,6 +23,7 @@ Gen 3
 - Wild
 
 Gen 4
+
 - Egg
 - Event
 - IDs
@@ -28,6 +31,7 @@ Gen 4
 - Wild
 
 Gen 5
+
 - Dream Radar
 - Egg
 - Event
@@ -35,6 +39,7 @@ Gen 5
 - IDs
 
 Gen 8
+
 - Egg
 - Event
 - IDs
@@ -46,33 +51,40 @@ Gen 8
 # Supported Platforms
 
 Windows
+
 - Windows 10
 - Windows 11
 
 MacOS
+
 - MacOS Ventura
 - MacOS Sonoma
 - MacOS Sequoia
 
 Linux
+
 - Ubuntu 22.04
 - Ubuntu 24.04
 
 Qt
+
 - 6.8 or newer
 
 # Installing
 
 Windows
+
 - Install the [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
 - Download the win zip folder from the [releases page](https://github.com/Admiral-Fish/PokeFinder/releases/latest)
 - Extract PokéFinder from the zip folder
 
 MacOS
+
 - Download the macos zip folder from the [releases page](https://github.com/Admiral-Fish/PokeFinder/releases/latest)
 - Extract PokéFinder from the zip folder
 
 Linux
+
 - Install Qt 6
   - [Qt website](https://www.qt.io/download)
   - sudo apt install qt6-base-dev
@@ -82,6 +94,7 @@ Linux
 # Building
 
 Windows
+
 - Install the dependencies
   - [Qt 6](https://www.qt.io/download)
   - [Build tools for Visual Studio](https://visualstudio.microsoft.com/downloads/)
@@ -93,12 +106,13 @@ Windows
   - cmake --build .
 - Bundle
   - mk PokeFinder-windows
-  - move release\PokeFinder.exe PokeFinder-windows\PokeFinder.exe 
+  - move release\PokeFinder.exe PokeFinder-windows\PokeFinder.exe
   - windeployqt --release --no-translations --no-angle --no-plugins --no-opengl-sw PokeFinder.exe
   - xcopy /I "QTPath"\plugins\platforms\qwindows.dll PokeFinder-windows\platforms\
   - xcopy /I "QTPath"\plugins\styles\qwindowsvistastyle.dll PokeFinder-windows\styles\
 
 MacOS
+
 - Install the dependencies
   - Qt 6 ([brew](https://formulae.brew.sh/formula/qt) or the [Qt website](https://www.qt.io/download))
 - Build
@@ -112,6 +126,7 @@ MacOS
   - macdeployqt PokeFinder.app -dmg -verbose=2
 
 Linux
+
 - Install the dependencies
   - Qt 6
     - [Qt website](https://www.qt.io/download)
@@ -126,6 +141,7 @@ Linux
   - cmake --build .
 
 # Credits (in no particular order)
+
 - Bill Young, Mike Suleski, and Andrew Ringer for [RNG Reporter](https://github.com/Slashmolder/RNGReporter)
 - chiizu for [PPRNG](https://github.com/chiizu/PPRNG)
 - wwwwwwzx for [3DSRNG Tool](https://github.com/wwwwwwzx/3DSRNGTool)

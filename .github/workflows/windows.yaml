@@ -50,7 +50,7 @@ jobs:
             ${{env.cache-name}}-
 
       - name: Store File Mtimes
-        uses: ./.github/actions/mtime-cache
+        uses: ./.github/actions/file-mtime-cache
         with:
           mode: save
           files: |
@@ -61,7 +61,7 @@ jobs:
         run: cmake -B ${{github.workspace}}/build -DCMAKE_BUILD_TYPE=RELEASE -DTEST=ON
 
       - name: Restore Unmodified File Mtimes
-        uses: ./.github/actions/mtime-cache
+        uses: ./.github/actions/file-mtime-cache
         with:
           mode: restore
           files: |

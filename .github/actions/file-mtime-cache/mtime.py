@@ -9,7 +9,7 @@ from pathlib import Path
 mode = sys.argv[1]
 raw_input = sys.argv[2]
 patterns = raw_input.splitlines()
-cache_file = Path(".mtime-cache/mtimes.json")
+cache_file = Path(".file-mtime-cache/mtimes.json")
 cache_file.parent.mkdir(exist_ok=True)
 
 if mode == "save":

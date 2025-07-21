@@ -26,7 +26,7 @@ jobs:
           curl -L https://raw.githubusercontent.com/chetan/git-restore-mtime-action/refs/heads/master/git-restore-mtime -o "${{github.workspace}}/git-restore-mtime"
 
       - name: Restore mtime for PokeFinder
-        run: ${{ runner.temp }}/git-restore-mtime
+        run: python3 ${{runner.temp}}/git-restore-mtime
 
       - name: Restore mtime for all submodules
         run: git submodule foreach --recursive 'python3 ${{runner.temp}}/git-restore-mtime'

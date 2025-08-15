@@ -41,6 +41,7 @@ jobs:
               shell: bash
             - name: Poll commit message
               run: |
+                  echo ${{steps.commit_message.outputs.result}}
                   echo ${{contains(steps.commit_message.outputs.result, 'no-cache')}}
               shell: bash
 

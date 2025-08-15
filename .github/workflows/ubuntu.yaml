@@ -38,7 +38,11 @@ jobs:
         run: |
           echo "{result}={$(git log -1 --pretty=format:"%s" 2>&1)}" >> $GITHUB_OUTPUT
           cat $GITHUB_OUTPUT
-        shell: bash
+        shell: bash 
+      - name: Poll commit message
+        run: |
+          echo ${{contains(steps.commit_message.outputs.result, 'no-cache')}}
+        shell: bash 
 
       - name: Restore CMake build files
         if: ! contains(steps.commit_message.outputs.result, 'no-cache')

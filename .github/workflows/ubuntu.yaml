@@ -40,8 +40,10 @@ jobs:
                   cat $GITHUB_OUTPUT
               shell: bash
             - name: Poll commit message
+              env:
+                  COMMIT_MESSAGE: ${{ steps.commit_message.outputs.result }}
               run: |
-                  echo ${{steps.commit_message.outputs.result}}
+                  echo $COMMIT_MESSAGE
                   echo ${{contains(steps.commit_message.outputs.result, 'no-cache')}}
               shell: bash
 

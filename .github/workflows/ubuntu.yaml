@@ -37,6 +37,7 @@ jobs:
         id: commit_message
         run: |
           echo "{result}={$(git log -1 --pretty=format:"%s" 2>&1)}" >> $GITHUB_OUTPUT
+          echo $GITHUB_OUTPUT
         shell: bash
 
       - name: Restore CMake build files

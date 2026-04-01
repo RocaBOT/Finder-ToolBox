@@ -12,7 +12,7 @@
 11,L'Océanne extérieur
 12,Cave Taupiqueur 1er Sous-sol
 13,Route Victoire RDC/2e Étage
-14,Route Victoire RDC-2e Étage
+14,Route Victoire 1er Étage
 19,Manoir Pokémon 1er Sous-sol
 20,Parc Safari Centre
 21,Parc Safari Est

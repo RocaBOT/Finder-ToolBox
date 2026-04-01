@@ -1,39 +1,39 @@
-0,Petalburg City
-1,Slateport City
-2,Lilycove City
-3,Mossdeep City
-4,Sootopolis City
-5,Ever Grande City
-6,Meteor Falls 1F 1R
-7,Meteor Falls 1F 2R
-8,Meteor Falls B1F 1R
-9,Meteor Falls B1F 2R
-10,Rusturf Tunnel
-11,Granite Cave 1F
-12,Granite Cave B1F
-13,Granite Cave B2F
-14,Granite Cave Stevens Room
-15,Petalburg Woods
-16,Jagged Pass
-17,Fiery Path
-18,Mt Pyre 1F-3F
-21,Mt Pyre 4F-6F
-24,Mt Pyre Exterior
-25,Mt Pyre Summit
-32,Seafloor Cavern
-35,Cave Of Origin Entrance
-36,Cave Of Origin 1F-B3F
-40,Victory Road 1F
-41,Victory Road B1F
-42,Victory Road B2F
-44,Shoal Cave
-47,Shoal Cave Ice Room
-48,New Mauville Entrance
-49,New Mauville Inside
-50,Abandoned Ship Rooms
-52,Sky Pillar 1F
-53,Sky Pillar 3F
-54,Sky Pillar 5F
+0,Clémenti-ville
+1,Poivressel
+2,Nénucrique
+3,Algatia
+4,Atalanopolis
+5,Éternara
+6,Site Météore RDC Salle 1
+7,Site Météore RDC Salle 2
+8,Site Météore 1er Sous-sol Salle 1
+9,Site Météore 1er Sous-sol Salle 2
+10,Tunnel Mérazon 
+11,Grotte Granite RDC
+12,Grotte Granite 1er Sous-sol
+13,Grotte Granite 2e Sous-sol
+14,Grotte Granite Stevens Room
+15,Bois Clémenti
+16,Sentier Sinuroc
+17,Chemin Ardent
+18,Mont Mémoria RDC-2e Étage
+21,Mont Mémoria 3e-5e Étage
+24,Mont Mémoria Extérieur
+25,Mont Mémoria Sommet
+32,Caverne Fondmer
+35,Grotte Origine Entrée
+36,Grotte Origine RDC-3e Sous-sol
+40,Route Victoire RDC
+41,Route Victoire 1er Sous-sol
+42,Route Victoire 2e Sous-sol
+44,Grotte Tréfonds
+47,Grotte Tréfonds Salle Gelée
+48,New Lavandia Entrée
+49,New Lavandia Intérieur
+50,Cabines de l'Épave
+52,Pilier Céleste RDC
+53,Pilier Céleste 2e Étage
+54,Pilier Céleste 4e Étage
 55,Route 101
 56,Route 102
 57,Route 103
@@ -68,11 +68,11 @@
 86,Route 132
 87,Route 133
 88,Route 134
-89,Safari Zone Northwest
-90,Safari Zone Northeast
-91,Safari Zone Southwest
-92,Safari Zone Southeast
-93,Dewford Town
-94,Pacifidlog Town
-95,Route 124 Underwater
-96,Route 126 Underwater
+89,Parc Safari Nord-ouest
+90,Parc Safari Nord-est
+91,Parc Safari Sud-ouest
+92,Parc Safari Sud-est
+93,Village Myokara
+94,Pacifiville
+95,Route 124 Fond Marin
+96,Route 126 Fond Marin

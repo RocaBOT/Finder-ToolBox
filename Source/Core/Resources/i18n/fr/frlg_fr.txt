@@ -1,72 +1,71 @@
-0,Seven Island Tanoby Ruins Monean Chamber
-1,Seven Island Tanoby Ruins Liptoo Chamber
-2,Seven Island Tanoby Ruins Weepth Chamber
-3,Seven Island Tanoby Ruins Dilford Chamber
-4,Seven Island Tanoby Ruins Scufib Chamber
-5,Seven Island Tanoby Ruins Rixy Chamber
-6,Seven Island Tanoby Ruins Viapois Chamber
-7,Viridian Forest
-8,Mt Moon 1F
-9,Mt Moon B1F
-10,Mt Moon B2F
-11,S.S Anne Exterior
-12,Digletts Cave B1F
-13,Victory Road 1F/3F
-14,Victory Road 2F
-16,Pokemon Mansion 1F-3F
-19,Pokemon Mansion B1F
-20,Safari Zone Center
-21,Safari Zone East
-22,Safari Zone North
-23,Safari Zone West
-24,Cerulean Cave 1F
-25,Cerulean Cave 2F
-26,Cerulean Cave B1F
-27,Rock Tunnel 1F
-28,Rock Tunnel B1F
-29,Seafoam Islands 1F
-30,Seafoam Islands B1F
-31,Seafoam Islands B2F
-32,Seafoam Islands B3F
-33,Seafoam Islands B4F
-34,Pokemon Tower 3F
-35,Pokemon Tower 4F-5F
-37,Pokemon Tower 6F
-38,Pokemon Tower 7F
-39,Power Plant
-40,Mt Ember Exterior
-41,Mt Ember Summit Path 1F/3F
-42,Mt Ember Summit Path 2F
-44,Mt Ember Ruby Path 1F
-45,Mt Ember Ruby Path B1F
-46,Mt Ember Ruby Path B2F
-47,Mt Ember Ruby Path B3F
-48,Mt Ember Ruby Path B1F Stairs
-49,Mt Ember Ruby Path B2F Stairs
-50,Three Island Berry Forest
-51,Four Island Icefall Cave Entrance
-52,Four Island Icefall Cave 1F/B1F
-54,Four Island Icefall Cave Back
-55,Six Island Pattern Bush
-56,Five Island Lost Cave
-66,Five Island Lost Cave Item Room
-70,One Island Kindle Road
-71,One Island Treasure Beach
-72,Two Island Cape Brink
-73,Three Island Bond Bridge
-74,Three Island Port
-75,Five Island Resort Gorgeous
-76,Five Island Water Labyrinth
-77,Five Island Meadow
-78,Five Island Memorial Pillar
-79,Six Island Outcast Island
-80,Six Island Green Path
-81,Six Island Water Path
-82,Six Island Ruin Valley
-83,Seven Island Trainer Tower
-84,Seven Island Sevault Canyon Entrance
-85,Seven Island Sevault Canyon
-86,Seven Island Tanoby Ruins
+0,Île 7 Ruines Tanoby Chambre Anemune
+1,Île 7 Ruines Tanoby Chambre Deulipe
+2,Île 7 Ruines Tanoby Chambre Prois
+3,Île 7 Ruines Tanoby Chambre Jonquatre
+4,Île 7 Ruines Tanoby Chambre Hibicinq
+5,Île 7 Ruines Tanoby Chambre Irix
+6,Île 7 Ruines Tanoby Chambre Poinsept
+7,Forêt de Jade
+8,Mont Sélénite RDC
+9,Mont Sélénite 1er Sous-sol
+10,Mont Sélénite 2e Sous-sol
+11,L'Océanne extérieur
+12,Cave Taupiqueur 1er Sous-sol
+13,Route Victoire RDC/2e Étage
+14,Route Victoire RDC-2e Étage
+19,Manoir Pokémon 1er Sous-sol
+20,Parc Safari Centre
+21,Parc Safari Est
+22,Parc Safari Nord
+23,Parc Safari Ouest
+24,Caverne Azurée RDC
+25,Caverne Azurée 1er Étage
+26,Caverne Azurée 1er Sous-sol
+27,Grotte RDC
+28,Grotte 1er Sous-sol
+29,Îles Écume RDC
+30,Îles Écume 1er Sous-sol
+31,Îles Écume 2e Sous-sol
+32,Îles Écume 3e Sous-sol
+33,Îles Écume 4e Sous-sol
+34,Tour Pokémon 2e Étage
+35,Tour Pokémon 3e-4e Étage
+37,Tour Pokémon 5e Étage
+38,Tour Pokémon 6e Étage
+39,Centrale
+40,Mont Braise Extérieur
+41,Mont Braise Chemin Sommet RDC/2e Étage
+42,Mont Braise Chemin Sommet 1er Étage
+44,Mont Braise Chemin Rubis RDC
+45,Mont Braise Chemin Rubis 1er Sous-sol
+46,Mont Braise Chemin Rubis 2e Sous-sol
+47,Mont Braise Chemin Rubis 3e Sous-sol
+48,Mont Braise Chemin Rubis Escaliers 1er Sous-sol
+49,Mont Braise Chemin Rubis Escaliers 2e Sous-sol
+50,Île 3 Bois Baies
+51,Île 4 Grotte de Glace Entrance
+52,Île 4 Grotte de Glace RDC/1er Sous-sol
+54,Île 4 Grotte de Glace Back
+55,Île 6 Forbuissons
+56,Île 5 Grotte Perdue
+66,Île 5 Grotte Perdue Salle d'objets
+70,Île 1 Route Tison
+71,Île 1 Plage Trésor
+72,Île 2 Cap Falaise
+73,Île 3 Pont du Lien
+74,Port Île 3
+75,Île 5 Camp de Vacances
+76,Île 5 Labyrinthe d'O
+77,Pré Île 5
+78,Île 5 Mémorial
+79,Île 6 Île du Lointain
+80,Île 6 Chemin Vert
+81,Île 6 Agualcanal
+82,Île 6 Vallée Ruine
+83,Île 7 Tour Dresseurs
+84,Île 7 Entrée Canyon
+85,Île 7 Canyon Sesor
+86,Île 7 Ruines Tanoby
 87,Route 1
 88,Route 2
 89,Route 3
@@ -92,14 +91,14 @@
 110,Route 23
 111,Route 24
 112,Route 25
-113,Pallet Town
-114,Viridian City
-115,Cerulean City
-116,Vermilion City
-117,Celadon City
-118,Fuchsia City
-119,Cinnabar Island
-120,One Island
-121,Four Island
-122,Five Island
-123,Six Island Altering Cave
+113,Bourg Palette
+114,Jadielle
+115,Azuria
+116,Carmin sur Mer
+117,Céladopole
+118,Parmanie
+119,Cramois'île
+120,Île 1
+121,Île 4
+122,Île 5
+123,Île 6 Grotte Métamo

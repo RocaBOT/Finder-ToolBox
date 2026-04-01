@@ -12,34 +12,34 @@
 11,Route 117
 12,Route 118
 13,Route 124
-14,Petalburg Woods
-15,Rusturf Tunnel
-16,Granite Cave 1F
-17,Granite Cave B1F
-18,Mt Pyre 1F-3F
-19,Victory Road 1F
-20,Safari Zone South
-21,Route 126 Underwater
-22,Abandoned Ship
-23,Granite Cave B2F
-24,Fiery Path
-25,Meteor Falls B1F 2R
-26,Jagged Pass
+14,Bois Clémenti
+15,Tunnel Mérazon
+16,Grotte Granite RDC
+17,Grotte Granite 1er Sous-sol
+18,Mont Mémoria RDC-2e Étage
+19,Route Victoire RDC
+20,Parc Safari South
+21,Route 126 Fond Marin
+22,Épave
+23,Grotte Granite 2e Sous-sol
+24,Chemin Ardent
+25,Site Météore 1er Sous-sol Salle 2
+26,Sentier Sinuroc
 27,Route 106
 28,Route 107
 29,Route 108
 30,Route 109
 31,Route 115
-32,New Mauville Inside
+32,New Lavandia Intérieur
 33,Route 119
 34,Route 120
 35,Route 121
 36,Route 122
 37,Route 123
-40,Mt Pyre 4F-6F
-43,Mt Pyre Exterior
-44,Mt Pyre Summit
-45,Granite Cave Stevens Room
+40,Mont Mémoria 3e-5e Étage
+43,Mont Mémoria Extérieur
+44,Mont Mémoria Sommet
+45,Grotte Granite Salle de Pierre Rochard
 46,Route 125
 47,Route 126
 48,Route 127
@@ -50,37 +50,37 @@
 53,Route 132
 54,Route 133
 55,Route 134
-62,Seafloor Cavern
-66,Cave Of Origin Entrance
-67,Cave Of Origin 1F
-71,New Mauville Entrance
-72,Safari Zone Southwest
-73,Safari Zone North
-74,Safari Zone Northwest
-75,Victory Road B1F
-76,Victory Road B2F
-77,Meteor Falls 1F 1R
-78,Meteor Falls 1F 2R
-79,Meteor Falls B1F 1R
-82,Shoal Cave
-84,Lilycove City
-85,Dewford Town
-86,Slateport City
-87,Mossdeep City
-88,Pacifidlog Town
-89,Ever Grande City
-90,Petalburg City
-91,Route 124 Underwater
-92,Shoal Cave Ice Room
-93,Sky Pillar 1F
-94,Sootopolis City
-95,Sky Pillar 3F
-96,Sky Pillar 5F
-97,Safari Zone Southeast
-98,Safari Zone Northeast
-99,Magma Hideout
-107,Mirage Tower
-111,Desert Underpass
-112,Artisan Cave
-114,Altering Cave
-123,Meteor Falls Stevens Cave
+62,Caverne Fondmer
+66,Grotte Origine Entrée
+67,Grotte Origine RDC
+71,New Lavandia Entrée
+72,Parc Safari Sud-ouest
+73,Parc Safari Nord
+74,Parc Safari Nord-ouest
+75,Route Victoire 1er Sous-sol
+76,Route Victoire 2e Sous-sol
+77,Site Météore RDC Salle 1
+78,Site Météore RDC Salle 2
+79,Site Météore 1er Sous-sol Salle 1
+82,Grotte Tréfonds
+84,Nénucrique
+85,Village Myokara
+86,Poivressel
+87,Algatia
+88,Pacifiville
+89,Éternara
+90,Clémenti-ville
+91,Route 124 Fond Marin
+92,Grotte Tréfonds Salle Gelée
+93,Pilier Céleste RDC
+94,Atalanopolis
+95,Pilier Céleste 2e Étage
+96,Pilier Céleste 4e Étage
+97,Parc Safari Sud-est
+98,Parc Safari Nord-est
+99,Planque Magma
+107,Tour Mirage
+111,Voie du Désert
+112,Grotte Atelier
+114,Grotte Métamo
+123,Site Météore Salle de Pierre Rochard
